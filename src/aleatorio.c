@@ -12,7 +12,7 @@
 #include <signal.h>
 #include <unistd.h>
 
-// MISC
+/// MISC
 #define BUF_SIZE 256
 
 // Supervision frames: FLAG | A | C | BCC1 (= A ^ C) | FLAG
